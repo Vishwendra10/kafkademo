@@ -13,10 +13,14 @@ public class Producer {
 	
 	public void publish(String message) 
 	{
+		
 		String topic= "MyTopic";
 		
+<<<<<<< HEAD
 		
 		
+=======
+>>>>>>> b46dd7749e9c76d5957731018b1f1cd7309eb451
 		this.kafkatemplate.send(topic, message);
 	}
 
