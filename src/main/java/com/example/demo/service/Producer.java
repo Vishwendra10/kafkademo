@@ -16,6 +16,8 @@ public class Producer {
 		String topic= "MyTopic";
 		
 		
+		
+		
 		this.kafkatemplate.send(topic, message);
 	}
 
